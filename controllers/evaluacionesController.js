@@ -60,7 +60,7 @@ const actualizarEvaluacion = async (req, res) => {
     evu.respuesta03B = req.body.respuesta03B || evu.respuesta03B;
     evu.respuesta03C = req.body.respuesta03C || evu.respuesta03C;
     evu.respuesta03D = req.body.respuesta03D || evu.respuesta03D;
-    evu.pregunta04 = req.body.pregunta01 || evu.pregunta04;
+    evu.pregunta04 = req.body.pregunta04 || evu.pregunta04;
     evu.respuesta04A = req.body.respuesta04A || evu.respuesta04A;
     evu.respuesta04B = req.body.respuesta04B || evu.respuesta04B;
     evu.respuesta04C = req.body.respuesta04C || evu.respuesta04C;

@@ -77,6 +77,51 @@ const respuestasSchema = mongoose.Schema({
         //required: true,
         trim: true
     },
+    respuesta11:{
+        type: String,
+        //required: true,
+        trim: true
+    },
+    respuesta12:{
+        type: String,
+        //required: true,
+        trim: true
+    },
+    respuesta13:{
+        type: String,
+        //required: true,
+        trim: true
+    },
+    respuesta14:{
+        type: String,
+        //required: true,
+        trim: true
+    },
+    respuesta15:{
+        type: String,
+        //required: true,
+        trim: true
+    },
+    respuesta16:{
+        type: String,
+        //required: true,
+        trim: true
+    },
+    respuesta17:{
+        type: String,
+        //required: true,
+        trim: true
+    },
+    respuesta18:{
+        type: String,
+        //required: true,
+        trim: true
+    },
+    respuesta19:{
+        type: String,
+        //required: true,
+        trim: true
+    },
     evaluacion: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Evaluaciones',

@@ -56,10 +56,6 @@ const evaluacionesSchema = mongoose.Schema({
     type: String,
     trim: true,
   },
-  respuesta02D: {
-    type: String,
-    trim: true,
-  },
   pregunta03: {
     type: String,
     //required: true,
@@ -70,14 +66,6 @@ const evaluacionesSchema = mongoose.Schema({
     trim: true,
   },
   respuesta03B: {
-    type: String,
-    trim: true,
-  },
-  respuesta03C: {
-    type: String,
-    trim: true,
-  },
-  respuesta03D: {
     type: String,
     trim: true,
   },
@@ -94,14 +82,6 @@ const evaluacionesSchema = mongoose.Schema({
     type: String,
     trim: true,
   },
-  respuesta04C: {
-    type: String,
-    trim: true,
-  },
-  respuesta04D: {
-    type: String,
-    trim: true,
-  },
   pregunta05: {
     type: String,
     //required: true,
@@ -112,14 +92,6 @@ const evaluacionesSchema = mongoose.Schema({
     trim: true,
   },
   respuesta05B: {
-    type: String,
-    trim: true,
-  },
-  respuesta05C: {
-    type: String,
-    trim: true,
-  },
-  respuesta05D: {
     type: String,
     trim: true,
   },
@@ -144,6 +116,51 @@ const evaluacionesSchema = mongoose.Schema({
     trim: true,
   },
   pregunta10: {
+    type: String,
+    //required: true,
+    trim: true,
+  },
+  pregunta11: {
+    type: String,
+    //required: true,
+    trim: true,
+  },
+  pregunta12: {
+    type: String,
+    //required: true,
+    trim: true,
+  },
+  pregunta13: {
+    type: String,
+    //required: true,
+    trim: true,
+  },
+  pregunta14: {
+    type: String,
+    //required: true,
+    trim: true,
+  },
+  pregunta15: {
+    type: String,
+    //required: true,
+    trim: true,
+  },
+  pregunta16: {
+    type: String,
+    //required: true,
+    trim: true,
+  },
+  pregunta17: {
+    type: String,
+    //required: true,
+    trim: true,
+  },
+  pregunta18: {
+    type: String,
+    //required: true,
+    trim: true,
+  },
+  pregunta19: {
     type: String,
     //required: true,
     trim: true,
