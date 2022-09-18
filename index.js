@@ -23,7 +23,7 @@ dotenv.config();
 conectarDB();
 //conf los cors
 
-const dominiosPermitidos = [
+/* const dominiosPermitidos = [
   process.env.FRONTEND_URL,
   process.env.FRONTEND_URL_ADMIN,
 ];
@@ -37,7 +37,7 @@ const corsOptions = {
     }
   },
 };
-app.use(cors(corsOptions));
+app.use(cors(corsOptions)); */
 /*  
 /*
 //Cramos la pag para correr en el navegador

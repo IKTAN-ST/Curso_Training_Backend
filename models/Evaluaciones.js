@@ -56,6 +56,10 @@ const evaluacionesSchema = mongoose.Schema({
     type: String,
     trim: true,
   },
+  respuesta02D: {
+    type: String,
+    trim: true,
+  },
   pregunta03: {
     type: String,
     //required: true,
@@ -66,6 +70,14 @@ const evaluacionesSchema = mongoose.Schema({
     trim: true,
   },
   respuesta03B: {
+    type: String,
+    trim: true,
+  },
+  respuesta03C: {
+    type: String,
+    trim: true,
+  },
+  respuesta03D: {
     type: String,
     trim: true,
   },
@@ -82,6 +94,14 @@ const evaluacionesSchema = mongoose.Schema({
     type: String,
     trim: true,
   },
+  respuesta04C: {
+    type: String,
+    trim: true,
+  },
+  respuesta04D: {
+    type: String,
+    trim: true,
+  },
   pregunta05: {
     type: String,
     //required: true,
@@ -92,6 +112,14 @@ const evaluacionesSchema = mongoose.Schema({
     trim: true,
   },
   respuesta05B: {
+    type: String,
+    trim: true,
+  },
+  respuesta05C: {
+    type: String,
+    trim: true,
+  },
+  respuesta05D: {
     type: String,
     trim: true,
   },
